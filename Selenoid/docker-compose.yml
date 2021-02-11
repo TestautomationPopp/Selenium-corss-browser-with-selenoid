@@ -6,7 +6,7 @@ services:
         ports:
             - "4444:4444"
         volumes:
-            - D:\Projekte\Test With a Smile\Programme\Selenoid:/etc/selenoid
+            - C:\Users\andip\.jenkins\workspace\twsTest1\Selenoid:/etc/selenoid
             - /var/run/docker.sock:/var/run/docker.sock
             
     selenoid-ui:
