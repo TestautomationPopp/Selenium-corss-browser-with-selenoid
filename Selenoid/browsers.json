@@ -1,0 +1,64 @@
+{
+	"firefox": {
+		"default": "85.0",
+		"versions": {
+			"85.0": {
+				"image": "selenoid/firefox:85.0",
+				"port": "4444",
+				"path": "/wd/hub",
+				"tmpfs": {"/tmp":"size=512m"}
+			},
+			"84.0": {
+				"image": "selenoid/firefox:84.0",
+				"port": "4444",
+				"path": "/wd/hub",
+				"tmpfs": {"/tmp":"size=512m"}
+			}
+		}
+	},
+	"chrome": {
+		"default": "88.0",
+		"versions": {
+			"88.0": {
+				"image": "selenoid/chrome:88.0",
+				"port": "4444",
+				"tmpfs": {"/tmp":"size=512m"}
+			},
+			"87.0": {
+				"image": "selenoid/chrome:87.0",
+				"port": "4444",
+				"tmpfs": {"/tmp":"size=512m"}
+			}
+		}
+	},
+	"opera": {
+		"default": "73.0",
+		"versions": {
+			"73.0": {
+				"image": "selenoid/opera:73.0",
+				"port": "4444",
+				"tmpfs": {"/tmp":"size=512m"}
+			},
+			"72.0": {
+				"image": "selenoid/opera:72.0",
+				"port": "4444",
+				"tmpfs": {"/tmp":"size=512m"}
+			}
+		}
+	},
+	"MicrosoftEdge": {
+		"default": "89.0",
+		"versions": {
+			"89.0": {
+				"image": "browsers/edge:89.0",
+				"port": "4444",
+				"tmpfs": {"/tmp":"size=512m"}
+			},
+			"88.0": {
+				"image": "browsers/edge:88.0",
+				"port": "4444",
+				"tmpfs": {"/tmp":"size=512m"}
+			}
+		}
+	}
+}
